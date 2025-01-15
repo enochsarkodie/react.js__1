@@ -18,12 +18,12 @@ function App() {
       <Navbar/>
       <Hero/>
       <div className="container">
-        <Title subTitle='Our Programs' title='What We Offer'></Title>
+        <Title subTitle='PRACTICE AREAS' title='What We Offer'></Title>
       <Programs/>
       <About/>
-      <Title subTitle='Gallery' title='Campus Photos'></Title> 
+      <Title subTitle='OUR STAFF' title='MEET THE TEAM'></Title> 
       <Campus/>
-      <Title subTitle='TESTIMONIALS' title='What Student Says'/>
+      <Title subTitle='TESTIMONIALS' title='What Our Clients Say'/>
       <Testimonials></Testimonials>
       <Title subTitle='Contact Us' title='Get in touch'/>
       <Contact/>

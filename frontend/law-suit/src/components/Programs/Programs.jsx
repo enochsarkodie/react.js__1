@@ -14,7 +14,7 @@ const Programs = () => {
                 <img src={program1} alt=""></img>
                 <div className='caption'>
                     <img src={program_icon_1 } alt=""></img>
-                    <p>Graduation Degree</p>
+                    <p>Aviation and Maritime</p>
                 </div>
             </div>
 
@@ -22,7 +22,7 @@ const Programs = () => {
                 <img src={program2} alt=""></img>
                 <div className='caption'>
                     <img src={program_icon_2 } alt=""></img>
-                    <p>Masters Degree</p>
+                    <p>Real Estate & Construction</p>
                 </div>
             </div>
              
@@ -30,7 +30,7 @@ const Programs = () => {
                 <img src={program3} alt=""></img>
                 <div className='caption'>
                     <img src={program_icon_3} alt=""></img>
-                    <p>Post graduation</p>
+                    <p>Immigration</p>
                 </div>
             </div>
         </div>

@@ -37,14 +37,13 @@ const Testimonials = () => {
                                 <img src={user_1} alt="" />
                                 <div>
                                     <h3>William Jackson</h3>
-                                    <span>Edusity, USA</span>
+                                    <span>Carlifonia, USA</span>
                                 </div>
                             </div>
-                            <p>Choosing to pursue a degree at Edusity was one Object.freeze
-                                the best decisions I have ever made. The supportive
-                                community, state-of-the-art facilities, and commitment
-                                to academic excellence have truly exceed my 
-                                expectations.</p>
+                            <p>Their dedication, professionalism, and expertise were evident throughout the entire process. 
+                                Thanks to their hard work, we achieved a successful outcome, and I couldn't be happier with the results. 
+                                I highly recommend this firm to anyone in need of legal assistance. 
+                                They truly go above and beyond for their clients.".</p>
                         </div>
                     </li>
 
@@ -54,14 +53,13 @@ const Testimonials = () => {
                                 <img src={user_2} alt="" />
                                 <div>
                                     <h3>William Jackson</h3>
-                                    <span>Edusity, USA</span>
+                                    <span>Effiakuma, Ghana</span>
                                 </div>
                             </div>
-                            <p>Choosing to pursue a degree at Edusity was one Object.freeze
-                                the best decisions I have ever made. The supportive
-                                community, state-of-the-art facilities, and commitment
-                                to academic excellence have truly exceed my 
-                                expectations.</p>
+                            <p>Their dedication, professionalism, and expertise were evident throughout the entire process. 
+                                Thanks to their hard work, we achieved a successful outcome, and I couldn't be happier with the results. 
+                                I highly recommend this firm to anyone in need of legal assistance. 
+                                They truly go above and beyond for their clients.".</p>
                         </div>
                     </li>
 
@@ -71,14 +69,13 @@ const Testimonials = () => {
                                 <img src={user_3} alt="" />
                                 <div>
                                     <h3>William Jackson</h3>
-                                    <span>Edusity, USA</span>
+                                    <span>Accra, Ghana</span>
                                 </div>
                             </div>
-                            <p>Choosing to pursue a degree at Edusity was one Object.freeze
-                                the best decisions I have ever made. The supportive
-                                community, state-of-the-art facilities, and commitment
-                                to academic excellence have truly exceed my 
-                                expectations.</p>
+                            <p>Their dedication, professionalism, and expertise were evident throughout the entire process. 
+                                Thanks to their hard work, we achieved a successful outcome, and I couldn't be happier with the results. 
+                                I highly recommend this firm to anyone in need of legal assistance. 
+                                They truly go above and beyond for their clients.".</p>
                         </div>
                     </li>
 
@@ -91,11 +88,10 @@ const Testimonials = () => {
                                     <span>Edusity, USA</span>
                                 </div>
                             </div>
-                            <p>Choosing to pursue a degree at Edusity was one Object.freeze
-                                the best decisions I have ever made. The supportive
-                                community, state-of-the-art facilities, and commitment
-                                to academic excellence have truly exceed my 
-                                expectations.</p>
+                            <p>Their dedication, professionalism, and expertise were evident throughout the entire process. 
+                                Thanks to their hard work, we achieved a successful outcome, and I couldn't be happier with the results. 
+                                I highly recommend this firm to anyone in need of legal assistance. 
+                                They truly go above and beyond for their clients.".</p>
                         </div>
                     </li>
                 </ul>

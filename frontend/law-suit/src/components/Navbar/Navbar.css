@@ -26,6 +26,10 @@ nav ul li{
     background: #212EA0;
     transition: 0.8s;
 }
+
+.menu-icon{
+    display: none;
+}
 @media(max-width:1000px){
     .logo{
         width: 140px;
@@ -55,4 +59,14 @@ nav ul li{
         display: block;
         margin:25px  40px ;
     }
+
+    .menu-icon{
+        display:block ;
+        width:30px ;
+        cursor: pointer;
+    }
+    .hide-mobile-menu{
+        right: -200px;
+    }
+    
 }
