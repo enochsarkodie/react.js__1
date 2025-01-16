@@ -6,7 +6,7 @@ const Hero = () =>{
     return (
         <div className='hero container'>
          <div  className='hero-text'>
-            <h1>Our commitment to our clients extends beyond the courtroom and chambers</h1>
+            <h1>Our commitment to our clients extends beyond what happens in chambers and the courtroom</h1>
             <p>
             We are passionate in advocating for our clients' rights and
              are dedicated to delivering personalized legal solutions that address 

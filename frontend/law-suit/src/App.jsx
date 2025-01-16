@@ -1,3 +1,4 @@
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import About from "./components/About/About"
 import Campus from "./components/Campus/Campus"
 import Contact from "./components/Contact/Contact"
