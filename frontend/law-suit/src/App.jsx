@@ -5,9 +5,10 @@ import Contact from "./components/Contact/Contact"
 import Footer from "./components/Footer/Footer"
 import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
-import Programs from "./components/Programs/Programs"
 import Testimonials from "./components/Testimonials/Testimonials"
 import Title from "./components/Tile/Title"
+import PracticeAreas from './components/PracticeAreas/PracticeAreas';
+
 
 
 function App() {
@@ -19,8 +20,8 @@ function App() {
       <Navbar/>
       <Hero/>
       <div className="container">
-        <Title subTitle='PRACTICE AREAS' title='What We Offer'></Title>
-      <Programs/>
+        <Title subTitle='WHAT WE OFFER' title='PRACTICE AREAS'></Title>
+        <PracticeAreas/>
       <About/>
       <Title subTitle='OUR STAFF' title='MEET THE TEAM'></Title> 
       <Campus/>

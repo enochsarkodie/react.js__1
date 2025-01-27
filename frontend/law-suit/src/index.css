@@ -43,10 +43,15 @@ a{
   color:#fff;
 }
 
+.btn:hover img{
+  color: #fff;
+}
+
 .btn img{
   width: 20px;
   margin-left: 10px;
 }
+
 .btn.dark-btn{
   background: #212EA0;
   color: #fff;

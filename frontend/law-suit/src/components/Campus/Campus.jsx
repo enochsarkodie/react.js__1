@@ -11,11 +11,7 @@ const Campus = ()=>{
     return (
         <div className='campus'>
           <div className="gallery">
-            <img src={lawyer_1} alt=''></img>
-            <img src={lawyer_2} alt=''></img>
-            <img src={lawyer_3} alt=''></img>
-            <img src={lawyer_4} alt=''></img>
-             
+            <img src={lawyer_1} alt=''></img> 
           </div>
           <button className='btn dark-btn'>See more here <img src={white_arrow} alt="" /></button>
         </div>

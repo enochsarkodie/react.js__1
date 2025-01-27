@@ -8,7 +8,7 @@ const About = () => {
         <div className='about'>
            <div className='about-left'>
             <img src={order} alt="" className='about-img'></img>
-            <img src={play_icon} alt="" className='play-icon'></img>
+            {/* <img src={play_icon} alt="" className='play-icon'></img> */}
            </div>
 
            <div className='about-right'>
