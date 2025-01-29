@@ -1,14 +1,21 @@
 .footer{
-    margin: 10px auto;
-    display: flex;
+    margin: 5px auto;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
     border-top: 1px solid #797979;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 .footer ul li{
-    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.terms{
+   
     display: inline-block;
     margin-left: 20px ;
+
 }

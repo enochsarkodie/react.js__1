@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/blc logo.png'
 import menu_icon from '../../assets/menu-icon.png'
-import {Link} from 'react-scroll'
+import {Link as LinkRoute} from 'react-router-dom'
+import Home from '../Home/Home'
+import PracticeAreas from '../PracticeAreas/PracticeAreas'
 
 
-const Navbar = ()=>{
+const Navbar1 = ()=>{
 
   const [sticky, setSticky] = useState(false);
 
@@ -24,16 +26,17 @@ const Navbar = ()=>{
         <nav className={`container ${sticky ? 'dark-nav' : ''}` }>
            <img src={logo} alt="" className='logo'></img>
            <ul className={mobileMenu?'':'hide-mobile-menu'}>
-             <li><Link to="hero" smooth={true} offset={0} duration={500}>Home</Link></li>
-             <li><Link to="practice" smooth={true} offset={-260} duration={500}>Practice areas</Link></li>
-             <li><Link to="about" smooth={true} offset={-150} duration={500}>About Us</Link></li>
-             <li><Link to="page" smooth={true} offset={-260} duration={500}>The team</Link></li>
-             <li><Link to="testimonials" smooth={true} offset={-260} duration={500}>Testimonials</Link></li>
-             <li><Link to="contact" smooth={true} offset={-260} duration={500} className='btn'>Contact us</Link></li>
+            <LinkRoute to='/' element={<Home/>}> <li>Home</li></LinkRoute>
+             <LinkRoute to='/practice-areas' element={<PracticeAreas/>}><li>Practice Areas</li></LinkRoute>
+             <li>About Us</li>
+             <li>The team</li>
+             <li>Testimonials</li>
+             <li className='btn'>Contact us</li>
+            
            </ul> 
            <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
         </nav>
     )
 }
 
-export default Navbar;
+export default Navbar1;
