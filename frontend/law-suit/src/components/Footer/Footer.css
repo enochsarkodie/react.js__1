@@ -5,6 +5,7 @@
     justify-content: space-between;
     border-top: 1px solid #797979;
     padding: 40px 0;
+    position:sticky;
 }
 
 .footer ul li{
@@ -18,4 +19,8 @@
     display: inline-block;
     margin-left: 20px ;
 
+}
+
+.footer ul li a:hover{
+    color: #212ea0;
 }

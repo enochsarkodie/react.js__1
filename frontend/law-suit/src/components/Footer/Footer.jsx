@@ -6,11 +6,11 @@ const Footer = ()=>{
         <div className='footer'>
           <p>Quick Links</p>
           <ul>
-            <li>Ghana Revenue Authority</li>
-            <li>Registrar General's Department</li>
-            <li>Ghana School of law</li>
-            <li>SSNIT</li>
-            <li>Ghana Investment Promotion Center</li>
+            <li><a href='https://gra.gov.gh/' target='_blank'>Ghana Revenue Authority</a></li>
+            <li><a href='https://www.rgd.gov.gh/' target='_blank'>Registrar General's Department</a></li>
+            <li><a href='' target='_blank'>Ghana School of law</a></li>
+            <li><a href='https://www.ssnit.org.gh/' target='_blank'>SSNIT</a></li>
+            <li><a href='' target='_blank'>Ghana Investment Promotion Center</a></li>
           </ul>
           <p>@ 2025 enoch@sarkodie.com. All rights reserved</p>
           <ul className='terms'>

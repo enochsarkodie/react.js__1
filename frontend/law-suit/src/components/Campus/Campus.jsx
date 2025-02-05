@@ -13,10 +13,10 @@ import Title from '../Tile/Title'
 
 const Campus = ()=>{
     return (
-        <div >
+        <div>
           <Navbar1/>
           <Hero1/>
-          <Title subTitle="STAFF" title="STAFF"/>
+          <Title subTitle="....." title="LAWYERS"/>
           <Lawyers/>
           <div className="container">
           <Title subTitle="Contact us" title="Get in touch"/>

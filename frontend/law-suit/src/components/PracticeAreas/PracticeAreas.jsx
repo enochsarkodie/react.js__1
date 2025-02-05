@@ -10,7 +10,6 @@ const PracticeAreas = ()=>{
             <li>Arbitration, Dispute Resolution & Mediation</li>
             <li>Banking Law</li>
             <li>Commercial Law</li>
-            <li>Commercial Property</li>
             <li>Contracts</li>
            </ul>
 
@@ -19,7 +18,6 @@ const PracticeAreas = ()=>{
             <li>Criminal Law</li>
             <li>Cultural Property</li>
             <li>Debt & Creditor</li>
-            <li>Employment Benefits</li>
            </ul>
 
            <ul >
@@ -27,13 +25,11 @@ const PracticeAreas = ()=>{
             <li>Environmental Law</li>
             <li>Family Law</li>
             <li>General Practice</li>
-            <li>Health and Safety</li>
            </ul>
 
            <ul >
             <li>Human Rights Law</li>
             <li>Litigation</li>
-           
             <li>Intellectual Property Law</li>
             <li>Labour and Employment</li>
            </ul>
@@ -42,7 +38,6 @@ const PracticeAreas = ()=>{
             <li>Immigration and Nationality</li>
             <li>Medicine and Ethics</li>
             <li>Natural Resources</li>
-            <li>Personal Injury</li>
             <li>Professional Liability</li>
            </ul>
 
@@ -50,6 +45,13 @@ const PracticeAreas = ()=>{
             <li>Real Estate</li>
             <li>Chieftaincy</li>
             <li>Insurance and Re-insurance</li>
+           </ul>
+
+           <ul>
+           <li>Commercial Property</li>
+           <li>Employment Benefits</li>
+           <li>Personal Injury</li>
+           <li>Health & Safety</li>
            </ul>
         </div>
     )

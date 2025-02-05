@@ -11,10 +11,10 @@
 .practice li{
     position: relative;
     list-style:none;
-    font-size: 18px;
+    font-size: 17px;
     color: #676767;
     font-weight: 700;
-    padding: 10px 20px;
+    padding: 10px 28px;
     margin: 5px;
     display: inline-flex;
     transition:0.5s;

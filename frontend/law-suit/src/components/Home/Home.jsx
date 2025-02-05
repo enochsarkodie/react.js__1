@@ -19,7 +19,7 @@ const Home = ()=>{
             <Navbar/>
         <Hero/>
         <div className="container">
-            <Title subTitle="WHAT WE OFFER" title="PRACTICE AREAS"/>
+            <Title subTitle="............" title="PRACTICE AREAS"/>
             <PracticeAreas/>
             <About/>
             <Title subTitle="OUR STAFF" title="MEET THE TEAM"/>

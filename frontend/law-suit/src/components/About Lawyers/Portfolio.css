@@ -1,0 +1,28 @@
+.heading{
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+.heading h3{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:  #212ea0;
+    
+}
+.heading h4{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000f38;
+    padding: 15px auto;
+}
+.heading p{
+   padding: 9px;
+   text-align: justify;
+   font-size: 17px;
+}

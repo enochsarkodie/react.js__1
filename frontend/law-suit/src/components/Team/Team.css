@@ -1,55 +1,37 @@
-.team-container{
+.lawyers{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    margin: 50px auto;
-    align-items: center;
     justify-content: center;
 }
-.page{
-    align-items: center;
-    justify-content: center;
+.lawyer{
+    width: 300px;
+    box-shadow: rgba(100,100,111,0.2) 0px, 7px, 29px, 0px;
+    border-radius: 2px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    cursor: pointer;
 }
 
-.team-box{
-/* overflow: hidden; */
-width: 320px;
-max-height: 470px;
-padding: 10px;
-box-shadow: rgba(100,100, 111,0.2) 0px 7px 29px 0px;
-text-align: center;
-cursor: pointer;
-transition: 1.0s;
-
-
-
+.lawyer:hover{
+    transform:scale(1.02);
 }
-.Image{
-   
-    width: 95%;
-    height: 200px;
+
+.lawyer-image{
+    width: 80%;
+    height: 330px;
     object-fit: cover;
 }
-
-.name{
-    margin-top: 10px;
+.img-content{
+    padding: 10px;
 }
-.name h2{
-   font-size: 23px; 
-   color: #000f38;
-   
+.img-content h2{
+    font-size: 20px;
+    color: #000f38;
 }
 
-.name p{
-font-size: 12px;
-color: #676767;
-text-transform: none;
-padding-top: 5px;
+.img-content p{
+    font-size: 14px;
+    color: #676767;
 }
-
-.Image:hover{
-  
-}
-
-
-
